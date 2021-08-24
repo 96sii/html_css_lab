@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Codeclan News</h1>
+        <nav class="nav-web">
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/contact">Contact<a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id ="login">
+        <h2>Login</h2>
+        <div class="container">
+            <form action="">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <nav>
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="/latest">Latest</a></li>
+            <li><a href="/local">Local</a></li>
+            <li><a href="/holiday">Holiday</a></li>
+            <li><a href="/sports">Sports</a></li>
+        </ul>
+    </nav>
+    <div id ="latest-news">
+        <h2>Latest News</h2>
+        <h3>Breaking News</h3>
+        <div class ="news-story"><img src="images/placeholder-image.png" alt="news story" class="news-picture"><div class="story-text"><h2>News Story</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis provident dolores aspernatur soluta exercitationem voluptatibus ut, iusto quo est. Cumque voluptas quaerat nam aut ab delectus beatae magnam facere neque?</p></div></div>
+        <div class ="news-story"><img src="images/placeholder-image.png" alt="news story" class="news-picture"><div class="story-text"><h2>News Story</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem libero consequatur molestiae, accusantium, dicta consequuntur obcaecati ab voluptatum, eum excepturi autem nemo iusto quas! Magnam rerum libero nihil dolor exercitationem!</p></div></div>
+        <div class ="news-story"><img src="images/placeholder-image.png" alt="news story" class="news-picture"><div class="story-text"><h2>News Story</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iusto, rem maiores voluptatibus facere distinctio accusantium commodi modi labore tempore earum, nobis debitis alias rerum temporibus adipisci ratione similique blanditiis!</p></div></div>
+    </div>
+    <main>
+        <h2>Main Article Headline</h2>
+        <h3>Author</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident deleniti, sunt sequi unde totam, eligendi accusamus ea, repudiandae nam dolorem est. Impedit quas magnam consectetur, temporibus, sunt voluptatibus eum itaque veniam ut harum nihil assumenda fugiat soluta id architecto pariatur mollitia minima minus sint rerum. Architecto reiciendis iste cum.</p>
+    </main>
+    <div class="comment-input">
+        <form action=" /form/submit" method= "POST">
+            <textarea class="comment"></textarea>
+            <br>
+        <input type="submit" name="submit" value="Send">
+        </form>
+    </div>
+    <div id="comments">
+        <div class="user-comment">
+            <img src="images/placeholder-avatar.png" alt="avatar">
+            <h3>Username</h3>
+            <h3>Posted on: 14/07/2017</h3>
+            <p>That was great!</p>
+        </div>
+        <div class="user-comment">
+            <img src="images/placeholder-avatar.png" alt="avatar">
+            <h3>Username</h3>
+            <h3>Posted on: 18/07/2017</h3>
+            <p>I don't like this</p>
+        </div>
+        <div class="user-comment">
+            <img src="images/placeholder-avatar.png" alt="avatar">
+            <h3>Username</h3>
+            <h3>Posted on: 12/08/2017</h3>
+            <p>It's okay</p>
+        </div>
+    </div>
+    <footer>
+        <h4>&copy; Codeclan news 2021</h4>
+    </footer>
+</body>
+</html>
